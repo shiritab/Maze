@@ -1,0 +1,28 @@
+
+
+ToggleButton {
+    -fx-background-color: lightblue;
+}
+
+ToggleButton:hover {
+    -fx-background-color: lightblue;
+}
+
+ToggleButton:selected:focused {
+    -fx-background-color: #9ce5e2;
+    -fx-border-color: blue;
+/*    -fx-border-style: halo;
+    -fx-shadow-highlight-color: black;
+    -fx-text-fill: black;
+    -fx-base: blue;*/
+}
+
+MenuBar{
+    -fx-background-color: #c7c9e5;
+    -fx-selection-bar: lightblue ;
+    -fx-text-background-color: white
+}
+
+MenuItem:hover{
+    -fx-background-color: lightyellow;
+}
